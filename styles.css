@@ -1,0 +1,85 @@
+.body {
+  background-color: #141518;
+  color: white;
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: #202630;
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 400px;
+  border-radius: 25px;
+}
+
+.icon-star {
+  border-radius: 50%;
+  padding: 15px;
+  background-color: #282f38;
+}
+
+h1 {
+  color: white;
+  font-size: 2em;
+  margin: 20px 0px;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 1em;
+}
+
+.rating-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+}
+.rating-value {
+  background-color: #282f38;
+  color: hsl(217, 12%, 63%);
+  border: none;
+  margin: 0px 10px;
+  padding: 10px 17px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.rating-value:hover {
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+}
+
+.submit {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  text-transform: uppercase;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.submit:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #cad7e2;
+}
+.attribution a {
+  color: #cad7e2;
+  text-decoration: none;
+}
+.attribution a:hover {
+  color: hsl(25, 97%, 53%);
+}
