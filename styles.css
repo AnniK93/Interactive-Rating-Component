@@ -37,6 +37,7 @@ p {
   justify-content: center;
   margin: 30px 0px;
 }
+
 .rating-value {
   background-color: #282f38;
   color: hsl(217, 12%, 63%);
@@ -50,6 +51,11 @@ p {
 .rating-value:hover {
   color: white;
   background-color: hsl(25, 97%, 53%);
+}
+
+.rating-value:focus {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
 }
 
 .submit {
